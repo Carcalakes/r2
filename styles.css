@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #101010;
+    border-bottom: 2px solid #ffcc00;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .market-info {
+    text-align: right;
+    color: #ffcc00;
+}
+
+header .market-info .market-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header .market-info .market-status {
+    font-size: 16px;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.stock-info table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.stock-info th, .stock-info td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+.stock-info th {
+    background-color: #333;
+}
+
+.stock-info tr:hover {
+    background-color: #444;
+}
+
+.stock-info .positive {
+    color: #66ff66;
+}
+
+.stock-info .negative {
+    color: #ff6666;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #ffaa00;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #101010;
+    color: #ffcc00;
+    font-size: 14px;
+}
